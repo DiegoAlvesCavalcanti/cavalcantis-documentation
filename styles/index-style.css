@@ -6,7 +6,7 @@
     --cor-1: #0caba8;
     --cor-2: #008f8c;
     --cor-3: #015958;
-    --cor-4: #023535;
+    --cor-4: #022727;
 }
 
 * {
@@ -33,26 +33,43 @@ font-style: normal;
 body {
     background-color: var(--cor-4);
     height: 100vh;
+    display: flex;
+}
+
+div#container {
+    display: inline-block;
+    margin: auto;
+}
+
+img {
+    width: 110px;
+    margin: auto;
 }
 
 h1 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 96px;
     color: var(--cor-0);
-    display: inline-block;
+}
+
+div#a_container, div#img_container{
+    display: flex;
+    margin-top: 35px;
 }
 
 a {
-    display: none;
-
     color: white;
-    background-color: var(--cor-0);
-
+    background-color: var(--cor-3);
+    box-shadow: 2px 2px 2px black;
     padding: 10px 60px;
     border-radius: 50px;
-
+    margin: auto;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
     font-size: 48px;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: color-mix(in srgb, var(--cor-3) 70%, white 30%);
 }
