@@ -1,0 +1,21 @@
+O intuito é criar um site para documentar e guardar anotações sobre tudo oque eu estiver estudando.
+
+Inpiração de layout -> https://www.w3schools.com/
+
+
+Páginas:
+
+	Página inicial (index.html): Simples com apenas um botão para adentrar o site. Uma vez que adentrar o site não dá para voltar para a página inicial.
+
+		Conceitos páginas inicial:
+			
+			* Ícones de tecnologias girando em volta do nome do site (Diego`s Documentation).
+			* Nome do siteno centro da tela com efeito rbg 
+		
+Paleta de cores:
+	
+	#0FC2C0
+	#0CABA8
+	#008F8C
+	#015958
+	#023535
