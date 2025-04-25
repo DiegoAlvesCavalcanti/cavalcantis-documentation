@@ -30,19 +30,19 @@ font-style: normal;
 
 /* ======= index.html styles ======== */
 
-#index_body {
+body {
     background-color: var(--cor-4);
     height: 100vh;
 }
 
-#index_h1 {
+h1 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 96px;
     color: var(--cor-0);
     display: inline-block;
 }
 
-#index_a {
+a {
     display: none;
 
     color: white;
