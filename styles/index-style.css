@@ -60,7 +60,7 @@ div#a_container, div#img_container{
 a {
     color: white;
     background-color: var(--cor-3);
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 1px black;
     padding: 10px 60px;
     border-radius: 50px;
     margin: auto;
