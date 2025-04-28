@@ -39,12 +39,244 @@ font-style: normal;
     }
 }
 
+
+@keyframes superior-esquerdo_horario {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+
+    25% {
+        top: 0%;
+        left: 100%;
+        transform: translatex(-105%); 
+    }
+
+    50% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-105%, -105%); 
+    }
+
+    75% {
+        top: 100%;
+        left: 0%;
+        transform: translatey(-105%);
+    }
+
+    100% {
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@keyframes superior-esquerdo_anti-horario {
+    0% {
+        top: 0%;
+        left: 0%;
+    }
+
+    25% {
+        top: 100%;
+        left: 0%;
+        transform: translateY(-105%); 
+    }
+
+    50% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-105%, -105%); 
+    }
+
+    75% {
+        top: 0%;
+        left: 100%;
+        transform: translateX(-105%);
+    }
+
+    100% {
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@keyframes inferior-direito_horario {
+    0% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-105%, -105%);
+    }
+
+    25% {
+        top: 100%;
+        left: 0%;
+        transform: translateY(-105%); 
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    75% {
+        top: 0%;
+        left: 100%;
+        transform: translateX(-105%);
+    }
+
+    100% {
+        top: 100%;
+        left: 1000%;
+        transform: translate(-100%, -100%);
+    }
+}
+
+@keyframes inferior-direito_anti-horario {
+    0% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-105%, -105%);
+    }
+
+    25% {
+        top: 0%;
+        left: 100%;
+        transform: translateX(-105%); 
+    }
+
+    50% {
+        top: 0%;
+        left: 0%;
+    }
+
+    75% {
+        top: 100%;
+        left: 0%;
+        transform: translateY(-105%);
+    }
+
+    100% {
+        top: 100%;
+        left: 1000%;
+        transform: translate(-100%, -100%);
+    }
+}
+
 /* ======= index.html styles ======== */
 body {
     background-color: var(--cor-4);
     height: 100vh;
     display: flex;
+    overflow: hidden;
 }
+
+/* =========== Logos ===========*/
+.logo {
+    width: 40px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: movimento 5s infinite;
+}
+
+/*Superior esquerdo horário*/
+#html_logo {
+    animation: superior-esquerdo_horario 7s infinite;
+}
+
+#css_logo {
+    animation: superior-esquerdo_horario 9s infinite;
+    width: 29px;
+}
+
+#js_logo {
+    animation: superior-esquerdo_horario 11s infinite;
+}
+
+#npm_logo {
+    animation: superior-esquerdo_horario 13s infinite;
+}
+
+#c_logo {
+    animation: superior-esquerdo_horario 15s infinite;
+    width: 35px;
+}
+
+/*Superior esquerdo anti-horário*/
+#git_logo {
+    animation: superior-esquerdo_anti-horario 7s infinite;
+    width: 35px;
+}
+
+#github_logo {
+    animation: superior-esquerdo_anti-horario 9s infinite;
+    width: 35px;
+}
+
+#java_logo {
+    animation: superior-esquerdo_anti-horario 11s infinite;
+    width: 45px;
+}
+
+#cmm_logo {
+    animation: superior-esquerdo_anti-horario 13s infinite;
+    width: 35px;
+}
+
+#python_logo {
+    animation: superior-esquerdo_anti-horario 15s infinite;
+}
+
+/*Inferior direito horario*/
+#arch_logo {
+    animation: inferior-direito_horario 7s infinite;
+}
+
+#cS_logo {
+    animation: inferior-direito_horario 9s infinite;
+}
+
+#php_logo {
+    animation: inferior-direito_horario 11s infinite;
+    width: 47px;
+}
+
+#mysql_logo {
+    animation: inferior-direito_horario 13s infinite;
+    width: 45px;
+}
+
+#react_logo {
+    animation: inferior-direito_horario 15s infinite;
+    width: 35px;
+}
+
+/*Inferio direito anti-horário*/
+#vite_logo {
+    animation: inferior-direito_anti-horario 7s infinite;
+    width: 35px;
+}
+
+#ruby_logo {
+    animation: inferior-direito_anti-horario 9s infinite;
+    width: 35px;
+}
+
+#type_logo {
+    animation: inferior-direito_anti-horario 11s infinite;
+    width: 32px;
+}
+
+#vue_logo {
+    animation: inferior-direito_anti-horario 13s infinite;
+    width: 33px;
+}
+
+#maria_logo {
+    animation: inferior-direito_anti-horario 15s infinite;
+    width: 40px;
+}
+/*==============================================*/
 
 div#container {
     display: inline-block;
