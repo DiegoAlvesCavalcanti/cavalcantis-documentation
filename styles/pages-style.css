@@ -1,1 +1,38 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-0: #0fc2c0;
+    --cor-1: #0caba8;
+    --cor-2: #008f8c;
+    --cor-3: #015958;
+    --cor-4: #022727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== Fonts ========== */
+.jura {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.akatab {
+  font-family: "Akatab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Khula Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Khula Bold'), url(../fonts/khula-webfont/Khula-Bold.woff) format('woff');
+}
