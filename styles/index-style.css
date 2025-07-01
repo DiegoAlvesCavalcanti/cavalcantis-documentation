@@ -116,6 +116,7 @@ font-style: normal;
     50% {
         top: 0%;
         left: 0%;
+        transform: translateX(-5%);
     }
 
     75% {
@@ -126,7 +127,7 @@ font-style: normal;
 
     100% {
         top: 100%;
-        left: 1000%;
+        left: 100%;
         transform: translate(-100%, -100%);
     }
 }
@@ -147,6 +148,7 @@ font-style: normal;
     50% {
         top: 0%;
         left: 0%;
+        transform: translateX(-5%)
     }
 
     75% {
@@ -157,7 +159,7 @@ font-style: normal;
 
     100% {
         top: 100%;
-        left: 1000%;
+        left: 100%;
         transform: translate(-100%, -100%);
     }
 }
