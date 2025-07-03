@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registrar</title>
+        <link rel="stylesheet" href="../styles/signinup-style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="formulario">
+                <form action="" method="">
+                    <fieldset>
+                        <legend class="form-title">Registrar</legend>
+                        <div class="form-elements">
+                            <fieldset>
+                                <legend>Nome</legend>
+                                <div id="signup-name">
+                                    <input type="text" name="name" id="name" placeholder="Nome" />
+                                    <span id="nome-span"></span>
+                                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" />
+                                    <span id="sobrenome-span"></span>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Gênero</legend>
+                                <div id="signup-gender">
+                                    <input type="radio" name="gender" id="masc" />
+                                    <label for="masc">Masculino</label>
+                                    <input type="radio" name="gender" id="fem" />
+                                    <label for="fem">Feminino</label>
+                                </div>
+                            </fieldset>
+                            <div id="signup-email">
+                                <input type="email" name="email" id="email" placeholder="E-mail" />
+                                <span id="email-span"></span>
+                            </div>
+                            <div id="signup-phonenumber">
+                                <input type="tel" name="number" id="number" placeholder="Nº telefone" />
+                                <span id="numtel-span"></span>
+                            </div>
+                            <fieldset>
+                                <legend>Senha</legend>
+                                <div id="signup-password">
+                                    <input type="password" name="password" id="password" placeholder="Senha" />
+                                    <span id="password-span"></span>
+                                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmar Senha" />
+                                    <span id="confirmpassword-span"></span>
+                                </div>
+                            </fieldset>
+                            <div class="buttons">
+                                <button type="submit">Entrar</button>
+                                <button><a href="signin.html">&lt;</a></button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
