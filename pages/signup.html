@@ -14,16 +14,20 @@
                         <legend class="form-title">Registrar</legend>
                         <div class="form-elements">
                             <fieldset>
-                                <legend>Nome</legend>
+                                <legend class="legend-display-none">Nome</legend>
                                 <div id="signup-name">
-                                    <input type="text" name="name" id="name" placeholder="Nome" />
-                                    <span id="nome-span"></span>
-                                    <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" />
-                                    <span id="sobrenome-span"></span>
+                                    <div id="signup-name-data">
+                                        <input type="text" name="name" id="name" placeholder="Nome" />
+                                        <span id="nome-span"></span>
+                                    </div>
+                                    <div id="signup-lastname-data">
+                                        <input type="text" name="lastname" id="lastname" placeholder="Sobrenome" />
+                                        <span id="sobrenome-span"></span>
+                                    </div>
                                 </div>
                             </fieldset>
                             <fieldset>
-                                <legend>Gênero</legend>
+                                <legend class="legend-display-none" >Gênero</legend>
                                 <div id="signup-gender">
                                     <input type="radio" name="gender" id="masc" />
                                     <label for="masc">Masculino</label>
@@ -40,12 +44,16 @@
                                 <span id="numtel-span"></span>
                             </div>
                             <fieldset>
-                                <legend>Senha</legend>
+                                <legend class="legend-display-none" >Senha</legend>
                                 <div id="signup-password">
-                                    <input type="password" name="password" id="password" placeholder="Senha" />
-                                    <span id="password-span"></span>
-                                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmar Senha" />
-                                    <span id="confirmpassword-span"></span>
+                                    <div id="signup-password-data">
+                                        <input type="password" name="password" id="password" placeholder="Senha" />
+                                        <span id="password-span"></span>
+                                    </div>
+                                    <div id="signup-confirmpsswrd-data">
+                                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmar Senha" />
+                                        <span id="confirmpassword-span"></span>
+                                    </div>
                                 </div>
                             </fieldset>
                             <div class="buttons">
