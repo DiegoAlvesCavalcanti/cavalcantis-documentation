@@ -31,6 +31,7 @@ font-style: normal;
 }
 /* ================================== */
 
+/* ===== Sign-in/Sign-up Styles ====== */
 body {
     background-color: var(--cor-4);
 }
@@ -42,6 +43,7 @@ body {
     transform: translate(-50%, -50%);
     border: 1px  solid var(--cor-0);
     border-radius: 15px;
+    box-shadow: 0px 0px 5px 0.1px black;
 }
 
 fieldset {
@@ -52,7 +54,7 @@ fieldset {
 
 figure#figure-img > img {
     width: 350px;
-    margin: 25px 0px 8px 0px;
+    margin: 32px 0px 8px 0px;
 }
 
 fieldset > legend.form-title {
@@ -90,7 +92,7 @@ input {
     font-weight: bold;
     font-size: 16px;
     width: 250px;
-    
+    box-shadow: 1px 1px 5px 0.1px black;
 }
 
 input:hover {
@@ -116,9 +118,13 @@ div.buttons > button {
     padding: 3px 12px;
     margin: 0px 5px;
     color: var(--cor-5);
+    box-shadow: 2px 2px 3px 0.1px black;
 }
 
 div.buttons > button > a {
     text-decoration: none;
     color: var(--cor-5);
 }
+
+/* ===== Only Sign-up Styles ====== */
+
