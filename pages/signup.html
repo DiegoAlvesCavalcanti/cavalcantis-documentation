@@ -5,15 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Registrar</title>
         <link rel="stylesheet" href="../styles/signin-up-style.css" />
+        <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
     </head>
     <body>
         <main>
-            <div class="formulario">
+            <div id="formulario-signup" class="formulario">
                 <form action="" method="">
-                    <fieldset>
-                        <legend class="form-title">Registrar</legend>
+                    <fieldset id="fieldset-signup">
+                        <legend id="form-title-signup" class="form-title">Registrar</legend>
                         <div class="form-elements">
-                            <fieldset>
+                            <fieldset class="form-component-fieldset">
                                 <legend class="legend-display-none">Nome</legend>
                                 <div id="signup-name">
                                     <div id="signup-name-data">
@@ -26,24 +27,32 @@
                                     </div>
                                 </div>
                             </fieldset>
-                            <fieldset>
-                                <legend class="legend-display-none" >Gênero</legend>
+                            <fieldset class="form-component-fieldset">
+                                <legend id="legend-gender-signup" class="legend-display-none">Gênero:</legend>
                                 <div id="signup-gender">
-                                    <input type="radio" name="gender" id="masc" />
-                                    <label for="masc">Masculino</label>
-                                    <input type="radio" name="gender" id="fem" />
-                                    <label for="fem">Feminino</label>
+                                    <div class="radio-area">
+                                        <input required checked type="radio" name="gender" id="masc" />
+                                        <label for="masc">Masculino</label>
+                                    </div>
+                                    <div class="radio-area">
+                                        <input required type="radio" name="gender" id="fem" />
+                                        <label for="fem">Feminino</label>
+                                    </div>
                                 </div>
                             </fieldset>
-                            <div id="signup-email">
-                                <input type="email" name="email" id="email" placeholder="E-mail" />
-                                <span id="email-span"></span>
-                            </div>
-                            <div id="signup-phonenumber">
-                                <input type="tel" name="number" id="number" placeholder="Nº telefone" />
-                                <span id="numtel-span"></span>
-                            </div>
-                            <fieldset>
+                            <fieldset class="form-component-fieldset">
+                                <div id="signup-email">
+                                    <input type="email" name="email" id="email" placeholder="E-mail" />
+                                    <span id="email-span"></span>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-component-fieldset">
+                                <div id="signup-phonenumber">
+                                    <input type="tel" name="number" id="number" placeholder="Nº telefone" />
+                                    <span id="numtel-span"></span>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-component-fieldset">
                                 <legend class="legend-display-none" >Senha</legend>
                                 <div id="signup-password">
                                     <div id="signup-password-data">
